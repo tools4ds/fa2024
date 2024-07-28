@@ -2,178 +2,224 @@
 layout: home
 ---
 
-**Lectures:** Tuesdays and Thursdays, 3:30pm -- 4:45pm<br>
-**Location:** CAS 208
+## Session 1
+**Meeting Place:** TBD
 
-**Discussion Session I:** Wednesdays, 11:15am -- 12:05pm<br>
-**Location:** CDS 164
+**Meeting Time:** TBD
 
-**Discussion Session II:** Wednesdays, 3:35pm -- 4:25pm<br>
-**Location:** CDS 1526
+**Instructor:** Prof. Thomas Gardos
+* Office: CDS 1635
+* Office Hours: TBD
+* Office Hours Location: CCDS 16th floor
+* Email: tgardos \<at>\ bu \<dot>\ edu
 
-**Instructor:** Thomas Gardos
-* Office: CDS 1623
-* Office Hours: Fridays, 1:30 -- 3:30pm on Zoom (see Piazza) and on demand. E-mail for appointment.
-* email: tgardos \<at\> bu \<dot\> edu
+## Session 1
+**Meeting Place:** TBD
 
-**Teaching Assistant:** Xavier Thomas
-* Office Hours: Mondays, 3:00pm -- 5:00pm
-* Office Hours Location: CDS, 16th Floor
-* email: xthomas \<at\> bu \<dot\> edu
+**Meeting Time:** TBD
 
-## Course Description
+**Instructor:** Prof. Scott Ladenheim
+* Office: CDS TBD
+* Office Hours: TBD
+* Office Hours Location: CCDS TBD floor
+* Email: tgardos \<at>\ bu \<dot>\ edu
 
-In this course students will gain an understanding of the fundamentals in deep learning and then apply those concepts in exercises and applications in python. We’ll start with the origins of artificial neural networks, learn about loss functions, understand gradient descent, back propagation and various training optimization techniques. Students will be familiar with canonical network architecture such as multi-layer perceptions, convolutional neural networks, recursive neural networks, LSTMs and GRU, attention and transformers. Through explanations, examples and exercises students will build intuition on how deep learning algorithms work and how they are implemented in popular deep learning frameworks such as PyTorch. Students will be able to define, train and evaluate deep learning models as well as adapt deep learning frameworks to new functionality.  Students will gain exposure to pre-trained large language models and other foundation models and the concepts of few-shot learning and reasoning. Finally, students will be able to apply many of the techniques they learned in a final class project.
+## Teaching Assistants
+
+* Name: TBD
+   * Office Hours: TBD
+   * Office Hours Location: CCDS TBD
+   * Email: name \<at>\ bu \<dot>\ edu
+
+## Overview of the Course
+
+This course is a Master’s level introduction to data science, focusing on proficiency in working with and
+analyzing data. The course emphasizes practical skills in working with data, while introducing students to a
+wide range of techniques that are commonly used in the analysis of data, such as clustering, classification,
+regression, and network analysis. The goal of the class is to provide to students a hands-on understanding
+of classical data analysis techniques and to develop proficiency in applying these techniques in a modern
+programming language (Python).
+
+Broadly speaking, the course breaks down into three main components, which we will take in order of
+increasing complication: (a) unsupervised methods; (b) supervised methods; and (c) methods for structured
+data.
+
+Lectures will present the fundamentals of each technique; focus is not on the theoretical analysis of the
+methods, but rather on helping students understand the practical settings in which these methods are useful.
+Class discussion will study use cases and will go over relevant Python packages that will enable the students
+to perform hands-on experiments with their data.
+
+## Prerequisites
+
+Prerequisites: Students taking this class must have prior familiarity with programming, at the level of
+DS110, CS105, CS108, or CS111, or equivalent. In this course you will use python – you are assumed
+to either know python, or be ready to learn it quickly on your own in the first week. Linear Algebra – DS121
+or CS132 or equivalent (MA 242, MA 442) – is required. DS210 or CS112 is also helpful.
 
 ## Learning Outcomes
 
-Upon successful completion of this course, students will be able to:
+Students who successfully complete this course will be proficient in data acquisition, manipulation, and
+analysis. They will have good working knowledge of the most commonly used methods of clustering,
+classification, and regression. They will also understand the efficiency issues and systems issues related to
+working on very large datasets.
 
-1. Grasp foundational theories and practices in the deep learning arena.
-2. Design and implement various neural network architectures using Python and PyTorch.
-3. Employ regularization, optimization, and advanced training techniques to enhance model performance.
-4. Analyze real-world datasets, applying suitable deep learning techniques to derive actionable insights.
-5. Understand the benefits and drawbacks of various neural architectures in specific contexts.
-6. Understand the pros and cons of pre-trained large language and other foundation models and how best to employ them
-7. Complete a data-centric project, showcasing end-to-end deep learning implementation.
+## Textbook and Slides
+The textbook used in the course is published at [https://tools4ds.github.io/DS701-Course-Notes/](https://tools4ds.github.io/DS701-Course-Notes/).
+This online text will evolve as the course progresses,
+but I will work to keep it up-to-date.
 
-## Prerequisites
-Python Programming – Should be proficient in python and associated data science packages,
-or studiously working towards proficiency. See for example
-[Scientific Python Lectures](https://lectures.scientific-python.org/index.html) for lessons on python language and relevant packages, or
-[The Python Tutorial](https://docs.python.org/3/tutorial/index.html) for a tutorial on the core
-language. 
+The slides used in the lecture are actually executable Jupyter notebooks. When we show you code in lecture, it
+will almost always be runnable code in the form of Jupyter notebooks which you can download and execute
+on your own computer. You can modify them any way you’d like, play around with them, experiment, etc.
+The notebooks and everything else I use in lecture are published on github. The repository is
+[https://github.com/tools4ds/DS701-Course-Notes](https://tools4ds.github.io/DS701-Course-Notes/). If you want to clone
+or fork the repository using git, please feel free. If you find a bug, feel free to submit a pull request.
+Some of the lectures are based on Introduction to Data Mining, by Tan, Steinbach and Kumar. This is
+a good place to go for more detail if some methodological aspect is not clear. For up-to-date reference on
+Pandas, scikit-learn, or any of the other software tools we use, there is no substitute for online resources.
+Google will quickly bring you to the authoritative (and current) references on software tools.
 
-Packages such as NumPy [NumPy - Learn](https://numpy.org/learn/)  and 
-SciPy ([SciPy User Guide](https://docs.scipy.org/doc/scipy/tutorial/index.html#user-guide)
-have tutorials and documentation as well. 
+## Tools and Platforms
 
-The more proficient you are, the more effective you will be at the assignments and projects. We will dedicate some discussion sessions to ensure your environment is setup correctly and review some of the basics as well as answer any questions.
+We will use:
+1. Piazza for questions (URL TBD),
+2. Github for homeworks, midterm and project submission,
+3. Gradescope for grading and grade management, and
+4. Kaggle for the midterm.
 
-Math Proficiency – In order to understand the foundational concepts, it is important to have proficiency in a number of areas of mathematics. These include linear algebra, first year calculus and trigonometry as well as some concepts from Real Analysis. We will cover these concepts in the class and some recitation sessions, but refreshing or building your foundation will help.
+You should already be signed up for Gradescope (if not, enroll using code **TBD**). You can add
+yourself to Piazza if you are not already enrolled.
 
-## Reference Material
+You will need an account on Github. Once you have them, fill out the form
+at **TBD** to let us know what it is.
 
-The primary textbook for this course will be 
-[Understanding Deep Learning](https://udlbook.github.io/udlbook/), by Simon Prince . 
-The book is available online as a preprint and should be available in print from 
-MIT Press in early 2024.
+If you don’t have an up to date Python installation, take care of that right away.
 
-We’ll also reference 
-[Introduction to Linear Algebra, Sixth Edition (2023)](https://math.mit.edu/~gs/linearalgebra/ila6/indexila6.html), by Gilbert Strang.
+## Piazza
 
-Lecture notes, consisting primarily of Jupyter notebooks will be posted online as well. 
+We will be using Piazza for class discussion. The system is really well tuned to getting you help fast
+and efficiently from classmates, the teaching fellows, and myself. Rather than emailing questions to the
+teaching staff, I encourage you to post your questions on Piazza. Our class Piazza page is at: **TBD**. 
+We may also use Piazza for distributing materials such as
+homeworks and solutions.
 
-Given the fast moving nature of this area, we’ll also be citing many articles available online as well as other online reference materials in each lecture. As part of the class, we will guide the students in constructing their own bibliography and give tips on how to efficiently and effectively read research papers.
+When someone posts a question on Piazza, if you know the answer, please go ahead and post it. However
+please don’t provide answers to homework questions on Piazza. It’s OK to tell people where to look to get
+answers, or to correct mistakes; just don’t provide actual solutions to homework questions.
 
-## Computing Environment
+## Programming Environment
 
-Students are of course free to use their own personal computer, but you will also have access to Boston University’s Shared Computing Cluster and GPUs. Access instructions will be provided. For more information, see:
-* [Shared Computing Cluster : TechWeb : Boston University](https://www.bu.edu/tech/support/research/computing-resources/scc/) 
-* [GPU Computing : TechWeb : Boston University](https://www.bu.edu/tech/support/research/software-and-programming/programming/multiprocessor/gpu-computing/)
+We will use python as the language for teaching and for assignments that require coding. Instructions for
+installing and using Python are in the online textbook.
 
-## Learning Management Software
+## Course and Grading Administration
 
-To be added.
-* Piazza
-* Gradescope
-* Blackboard
+Homeworks are due at midnight on the date shown on the syllabus. Assignments will be submitted using
+github and gradescope. Please review the instructions for submitting homeworks, on the Resources
+page of Piazza.
 
-## Course Requirements
-- Homework: For the 1st half of the class we'll assign
-  Jupyter Notebook coding assignments and a few homework questions
-  approximately every week to help anchor the key concepts and python/pytorch
-  coding patterns. These will become less frequent in the 2nd half of the course
-  to allow you to concentrate and make progress on your projects.
-- A mid-term deep learning training contest
-- A final project where you will apply deep learning methods to a problem or
-  application of interest to you.
+> NOTE: IMPORTANT: Late assignments WILL NOT be accepted. However, you may submit one homework
+>up to 3 days late. You must email **TBD** before the deadline if you intend to submit a homework
+>late.
 
-## Course Assessment
+Final grades will be computed based on the following:<br>
+**20%** Midterm<br>
+**40%** Homework assignments.<br>
+**40%** Final Project<br>
+The exact cutoffs for final grades will be determined after the class is complete.
 
-- Final Project: 45%
-- Mid-term Project/Competition: 25%
-- Jupyter Notebooks: 15%
-- Homeworks: 10%
-- Class Participation/Attendance: 5%
+## Homeworks
 
+There will four homework assignments. In a typical assignment you will analyze one or more datasets using
+the tools and techniques presented in class.
 
-## Final Project
-See the [Project]({{ site.baseurl }}{% link project.md %}) page for more
-information.
+Homeworks will be submitted via github. For this, we need your github account (create one if
+you don’t already have it). After you have created it, fill out the form at **TBD** to let us know what it is.
+You are expected to work individually on homeworks.
 
-## Student Code of Conduct
+## Midterm
 
-All students are expected to abide by University conduct policies as detailed in the following links:
+The midterm will be a Kaggle Data Science competition among the students in the class with a live leaderboard.
+Students will need to submit predictions based on a training dataset and a report detailing the methods
+used and decisions made. Note that the intent is not to use the leaderboard to determine your grade, but rather
+to help you assess how effective your work is. Accordingly, 80% of the grade will be based on the report
+and only 20% will be based on the competition score related to the quality of the predictions made.
 
-* [Boston University Student Codes of Conduct](https://www.bu.edu/policies/policy-category/student-codes-condcut/)
-* [College of Arts & Sciences Codes of Conduct](https://www.bu.edu/cas/academics/undergraduate-education/academic-conduct-code/resources-for-students/)
-* [Boston University Student Responsibilities](https://www.bu.edu/dos/policies/student-responsibilities/)
+## Project
+
+A major goal of this course is to gain experience with real-world data science problems in form of a project.
+For the project you will extract some knowledge or conclusions from the analysis of dataset of your choice.
+The analysis will be done using a subset of the methods we described in class.
+Grading will be based on specific deliverables as well as your performance in your team throughout the
+semester.
+
+For the final project, students may get the opportunity to work with BU Spark! on a real world, datadriven
+project for a company, non-profit, or institution. Spark projects have already been curated and will
+be presented during “Pitch Day”. Project descriptions will be made available at the start of the semester.
+Once every student has a final project, every team will need to upload a SCRUM file to the final project
+repository every week which gives a short report on the status of their project.
+SCRUM is an agile method used in many software companies. Fast and concise, it is a short report
+answering the following questions:
+* What have I worked on?
+* What will I be working on next?
+* Have I run into any issues? Do I need help?
+* Have I talked to the client recently? When are we meeting with them next?
+
+## Project Expectations
+* All team members should contribute equally and proactively to project work; we will evaluate team
+contributions through a peer evaluation at the end of the semester and this will be factored into your
+grade.
+* You / your team lead should make yourself available to speak with your client on a bi-weekly basis
+(depends on client availability)
+* You / your team lead should meet with your Spark PM on a weekly basis
+* You should meet with your team every other day (can / should be a short meeting)
+* For any team communication issues, please let your spark PMs know asap - they are here to help. If
+the problem persists please email me with a description of the situation.
+* All students are expected to abide by University conduct policies as detailed in the following links:
+   * [Boston University Student Codes of Conduct](https://www.bu.edu/policies/policy-category/student-codes-condcut/)
+   * [College of Arts & Sciences Codes of Conduct](https://www.bu.edu/cas/academics/undergraduate-education/academic-conduct-code/resources-for-students/)
+   * [Boston University Student Responsibilities](https://www.bu.edu/dos/policies/student-responsibilities/)
+* All Spark! project teams
+   – Project Managers: These are the project leads and will communicate with the client directly, they will assist with administrative support (meeting scheduling, agenda setting), and will be a point of contact for project questions / concerns. Project Managers are also responsible for
+grading all Spark! project deliverables as detailed in the syllabus below. – Team Lead: These students will assist the Project Manager in attending client meetings, organizing team questions, and facilitating team meetings.
+   – Team Members: These students work collaboratively with each other on the project goals. For details on what you must submit as part of your project, see the section “Project Deliverables” at the end of this syllabus.
+
+## Spark! Collaboration
+
+BU Spark! offers students an opportunity to work on technical projects provided by companies or organizations
+in the Greater Boston area through our experiential learning lab (X-Lab). For this semester, Spark!
+has partnered with DS701 to offer a diverse selection of external data science projects scoped to support the
+course’s learning outcomes and enhance the student experience. To learn more about Spark!, please visit
+their [website](https://www.bu.edu/spark/).
+
+Your project team will be led by one of the Spark! Project managers. Their role is to support the student
+team’s work plan, manage client communication and expectations, organize weekly and biweekly meetings,
+and to oversee project deliverable grading.
+
+Spark! projects are a great opportunity for students to get real-world project experience to highlight on
+their github and CV. These projects have already been curated and will be presented during “Pitch Day”.
+Project descriptions will be made available at the start of the semester.
 
 ## Academic Honesty
 
-You may discuss homework assignments with classmates, but you are solely responsible for what you turn in. Collaboration
-in the form of discussion is allowed, but all forms of cheating (copying parts of a classmate’s assignment, plagiarism
-from books or old posted solutions) are NOT allowed. We – both teaching staff and students – are expected to abide by the
-guidelines and rules of the [Academic Code of Conduct](which is at http://www.bu.edu/academics/policies/academic-conduct-code/).
+You may discuss homework assignments with classmates, but you are solely responsible for what you turn in.
+Collaboration in the form of discussion is allowed, but all forms of cheating (copying parts of a classmate’s
+assignment, plagiarism from books or old posted solutions) are NOT allowed. We – both teaching staff and
+students – are expected to abide by the guidelines and rules of the Academic Code of Conduct (which is at
+[http://www.bu.edu/academics/policies/academic-conduct-code/](http://www.bu.edu/academics/policies/academic-conduct-code/)).
 
-Graduate students must also be aware of and abide by the [GRS Academic Conduct code](http://www.bu.edu/cas/students/graduate/forms-policies-procedures/academic-discipline-procedures/).
+Graduate students must also be aware of and abide by the GRS Academic Conduct
+code at [http://www.bu.edu/cas/students/graduate/forms-policies-procedures/academic-discipline-procedures/](http://www.bu.edu/cas/students/graduate/forms-policies-procedures/academic-discipline-procedures/).
 
-You can probably, if you try hard enough, find solutions for homework problems online. Given the nature of the Internet,
-this is inevitable. Let me make a couple of comments about that:
-
-1. If you are looking online for an answer because you don’t know how to start thinking about a problem, talk to the TA
-   or instructor, who may be able to give you pointers to get you started. Piazza is great for this – you can usually
-   get an answer in an hour if not a few minutes.
-2. If you are looking online for an answer because you want to see if your solution is correct, ask yourself if there is
-   some way to verify the solution yourself. Usually, there is. You will understand what you have done much better if
-   you do that. So ... it would be better to simply submit what you have at the deadline (without going online to cheat)
-   and plan to allocate more time for homeworks in the future.
-
-## <a id="gaia-policy"></a>Generative AI Assistance (GAIA) Policy
-
-In general, we follow the policy outlined in the
-[CDS GAIA Policy](https://www.bu.edu/cds-faculty/culture-community/gaia-policy/).
-
-Extracting and paraphrasing from the student responsibilities of that policy. 
-Where there is conflicting information between the CDS policy and below, the
-policy below should take precedence.
-
-Students shall:<br>
-1. Give credit to AI tools whenever used, even if only to generate ideas rather than usable text, illustrations or code.
-2. When using AI tools on _written_ assignments, unless prohibited, add an appendix showing
-    1. the entire exchange, highlighting the most relevant sections; 
-    2. a description of precisely which AI tools were used (e.g. ChatGPT private subscription version or DALL-E free
-        version), 
-    3. an explanation of how the AI tools were used (e.g. to generate ideas, turns of phrase, elements of text, long
-        stretches of text, lines of argument, pieces of evidence, maps of conceptual territory, illustrations of key
-        concepts, etc.); 
-    4. an account of why AI tools were used (e.g. to save time, to surmount writer’s block, to stimulate thinking, to
-       handle mounting stress, to clarify prose, to translate text, to experiment for fun, etc.).
-    5. Optional but recommended: Employ AI detection tools and originality checks prior to submission, ensuring that
-       their submitted work is not mistakenly flagged.
-3. When using AI tools on _coding_ assignments, unless prohibited
-    1. Add the prompt text and tool used as comments before the generated code.
-       Clarify whether the code was used as is, or modified somewhat, moderately
-       or significantly.
-4. Not use AI tools during in-class examinations, or assignments, unless explicitly permitted and instructed.
-5. Use AI tools wisely and intelligently, aiming to deepen understanding of subject matter and to support learning.
-
-As these generative assistive tools become widely deployed and pervasive, we believe they will become integral
-to most people's workflow. However, for foundational concepts, as are taught in this course, it is in your
-best interest and worth it to struggle some in creating your answers and solutions. It is just as important
-to learn what doesn't work, and which paths are dead ends, as it is to learn what does work. When you are posed
-with new and unique problems, that intuition you develop will be vital in choosing directions. More pragmatically,
-some of the most coveted jobs at the most selective companies require technical interviews where they expect you
-to know these foundational concepts without assistance.
-
-And finally, to reiterate, it is vitally important, and a core part of academic integrity, to cite when you are
-using Generative AI Assistive technologies. Arguably, not citing and risking plagiarism is worse than taking
-short cuts and using and then citing GAIA.
-
-## Accommodations for Students with Disabilities
-
-If you have a disability and have an accommodations letter from the Disability & Access Services office, I encourage you to discuss your accommodations and needs with me as early in the semester as possible. I will work with you to ensure that accommodations are provided as appropriate. If you suspect that you may have a disability and would benefit from accommodations but are not yet registered with BU Disability & Access Services, I encourage you to find more information at https://www.bu.edu/disability/.
+You can probably, if you try hard enough, find solutions for homework problems online. Given the
+nature of the Internet, this is inevitable. Let me make a couple of comments about that:
+1. If you are looking online for an answer because you don’t know how to start thinking about a problem,
+talk to Ms. Lu or myself, who may be able to give you pointers to get you started. Piazza is great for
+this – you can usually get an answer in an hour if not a few minutes.
+2. If you are looking online for an answer because you want to see if your solution is correct, ask yourself
+if there is some way to verify the solution yourself. Usually, there is. You will understand what you
+have done much better if you do that. So ... it would be better to simply submit what you have at the
+deadline (without going online to cheat) and plan to allocate more time for homeworks in the future.
 
 
 _This syllabus provides a general plan for the course; deviations may be necessary depending on the progress of the class._

@@ -4,15 +4,15 @@ title: Materials
 permalink: /materials/
 ---
 
-{% include image.html url="/_images/UDLCoverSmall.jpg" width=175 align="right" %}
+{% include image.html url="/_images/DS701-icon.jpg" width=175 align="right" %}
 
 ## Book
 
-Understanding Deep Learning<br>
-by Simon J.D. Prince<br>
-MIT Press, 2023
+Tools for Data Science<br>
+Course Notes<br>
 
-Free PDF and other book material available [here](https://udlbook.github.io/udlbook/).
+The online book is available [here](https://tools4ds.github.io/DS701-Course-Notes/) and
+the source Jupyter notebooks are in the [repo](https://github.com/tools4ds/DS701-Course-Notes/tree/main/ds701_book).
 
 ## Additional Course Materials
 
