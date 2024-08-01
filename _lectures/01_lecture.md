@@ -1,6 +1,8 @@
 ---
 type: lecture
-date: 2024-01-18T15:30:00-5:00
+date: 2024-01-17T15:30:00-5:00
+date_a1: 2024-01-18T15:30:00-5:00
+date_c1: 2024-01-19T15:30:00-5:00
 title: 01 - Intro to Deep Learning and Course Logistics
 tldr: "We will introduce the topic of deep learning, a bit about it's history,
 and what impact it has had. Then we'll go over the course logistics, the 

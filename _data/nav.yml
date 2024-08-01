@@ -3,8 +3,12 @@ items:
   name: Home
   icon_class: fa fa-home fa-lg
 
-- url: /schedule/
-  name: Schedule
+- url: /schedule_a1/
+  name: Sec A1 Schedule
+  icon_class: fas fa-calendar-alt
+
+- url: /schedule_c1/
+  name: Sec C1 Schedule
   icon_class: fas fa-calendar-alt
 
 - url: /lectures/

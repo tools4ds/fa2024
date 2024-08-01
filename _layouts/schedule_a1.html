@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+<header class="post-header">
+    <h1 class="post-title">Schedule for Section A1</h1>
+</header>
+
+{{ content }}
+
+<div class="home" style="font-size: 0.8em;">
+    <ul class="responsive-table" style="margin-left: 0;">
+        <li class="table-header">
+            <div class="col col-1">Event</div>
+            <div class="col col-1-2">Date</div>
+            <div class="col col-2">Description</div>
+            <div class="col col-4">Course Material</div>
+        </li>
+        
+        <!--creates a new variable all_assignment_dues which is a list of due_event
+         properties from the site.assignments collection.-->
+        {% assign all_assignment_dues = site.assignments | map: "due_event" %}
+
+
+        <!-- Debug print out-->
+        {% for event in all_assignment_dues %}
+        <li>
+            event: {{ event }}
+        </li>
+        <li>
+            <div class="col col-1">{{ event.type }}</div>
+            <div class="col col-1-2">{{ event.date | date: "%B %-d, %Y" }}</div>
+            <div class="col col-2">{{ event.description }}</div>
+            <div class="col col-4">
+                Blank.
+            </div>
+        </li>
+        {% endfor %}
+        <!--End debug print-->
+
+
+        <!--initializes the all_events variable by concatenating the site.events
+         collection with the site.lectures collection-->
+        {% assign all_events = site.events | concat: site.lectures %}
+
+        <!--adds the site.discussions collection to the all_events list.-->
+        {% assign all_events = all_events | concat: site.discussions %}
+
+        <!--adds the site.assignments collection to the all_events list.-->
+        {% assign all_events = all_events | concat: site.assignments %}
+
+        <!--adds the all_assignment_dues list to the all_events list.-->
+        {% assign all_events = all_events | concat: all_assignment_dues %}
+
+        <!--sorts the all_events list by the date property.-->
+        {% assign all_events_sorted = all_events | sort: 'date' %}
+
+        {% for event in all_events_sorted %}
+        <li>Debug Start</li>
+        <li> <!-- Debug print out-->
+            event: {{ event }}
+        </li>
+        <li>Debug end</li>
+        <li class="table-row table-row-{{ event.type}}">
+            {% include schedule_row_{{ event.type }}.html event=event %}
+        </li>
+        {% endfor %}
+
+    </ul>
+</div>
