@@ -2,7 +2,7 @@
 layout: home
 ---
 
-## Session 1
+## Section 1
 **Meeting Place:** TBD
 
 **Meeting Time:** TBD
@@ -13,15 +13,15 @@ layout: home
 * Office Hours Location: CCDS 16th floor
 * Email: tgardos \<at>\ bu \<dot>\ edu
 
-## Session 1
+## Section 2
 **Meeting Place:** TBD
 
 **Meeting Time:** TBD
 
 **Instructor:** Prof. Scott Ladenheim
-* Office: CDS TBD
+* Office: CDS 1545
 * Office Hours: TBD
-* Office Hours Location: CCDS TBD floor
+* Office Hours Location: CCDS 15th floor
 * Email: tgardos \<at>\ bu \<dot>\ edu
 
 ## Teaching Assistants
