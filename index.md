@@ -2,7 +2,7 @@
 layout: home
 ---
 
-## Section 1
+## Section A1
 **Meeting Place:** TBD
 
 **Meeting Time:** TBD
@@ -13,7 +13,7 @@ layout: home
 * Office Hours Location: CCDS 16th floor
 * Email: tgardos \<at>\ bu \<dot>\ edu
 
-## Section 2
+## Section B1
 **Meeting Place:** TBD
 
 **Meeting Time:** TBD
