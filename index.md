@@ -2,10 +2,10 @@
 layout: home
 ---
 
-## Section A1
-**Meeting Place:** TBD
+## Section A1, A2
+**Meeting Place:** 665 Comm Ave CDS B62
 
-**Meeting Time:** TBD
+**Meeting Time:** Tu, Th 9:30am -- 10:45am
 
 **Instructor:** Prof. Thomas Gardos
 * Office: CDS 1635
@@ -13,10 +13,14 @@ layout: home
 * Office Hours Location: CCDS 16th floor
 * Email: tgardos \<at>\ bu \<dot>\ edu
 
-## Section B1
-**Meeting Place:** TBD
+**Discussions Meeting place:** 750 Commonwealth Ave EPC 205
 
-**Meeting Time:** TBD
+**Discussions Time:** We 12:20pm - 1:10pm
+
+## Section C1
+**Meeting Place:** 595 Commonwealth Ave HAR 324
+
+**Meeting Time:** Mo,We 4:30pm - 6:15pm
 
 **Instructor:** Prof. Scott Ladenheim
 * Office: CDS 1545
