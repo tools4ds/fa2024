@@ -1,8 +1,13 @@
 <div class="col col-1" style="color: #a94442 ;font-weight: bold;" data-label="Event">Exam</div>
 <div class="col col-1-2" style="font-weight: bold" data-label="Date">
-    {{ event.date | date: site.dateformat }}
-    {{ event.date | date: "%H:%M" }}
-    <br class="date-spliter"/>{{ event.date | date: "%A" }}
+    {% if include.section == "a1" %}
+        {% assign date = include.event.date_a1 %}
+    {% elsif include.section == "c1" %}
+        {% assign date = include.event.date_c1 %}
+    {% endif %}
+    {{ date | date: site.dateformat }}
+    {{ date | date: "%H:%M" }}
+    <br class="date-spliter"/>{{ date | date: "%A" }}
 </div>
 <div class="col col-2" style="font-weight: bold" data-label="Description">
     {{ include.event.description }}

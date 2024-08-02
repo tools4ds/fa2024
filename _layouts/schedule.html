@@ -22,23 +22,6 @@ layout: default
         {% assign all_assignment_dues = site.assignments | map: "due_event" %}
 
 
-        <!-- Debug print out-->
-        {% for event in all_assignment_dues %}
-        <li>
-            event: {{ event }}
-        </li>
-        <li>
-            <div class="col col-1">{{ event.type }}</div>
-            <div class="col col-1-2">{{ event.date | date: "%B %-d, %Y" }}</div>
-            <div class="col col-2">{{ event.description }}</div>
-            <div class="col col-4">
-                Blank.
-            </div>
-        </li>
-        {% endfor %}
-        <!--End debug print-->
-
-
         <!--initializes the all_events variable by concatenating the site.events
          collection with the site.lectures collection-->
         {% assign all_events = site.events | concat: site.lectures %}
@@ -56,11 +39,6 @@ layout: default
         {% assign all_events_sorted = all_events | sort: 'date' %}
 
         {% for event in all_events_sorted %}
-        <li>Debug Start</li>
-        <li> <!-- Debug print out-->
-            event: {{ event }}
-        </li>
-        <li>Debug end</li>
         <li class="table-row table-row-{{ event.type}}">
             {% include schedule_row_{{ event.type }}.html event=event %}
         </li>

@@ -1,6 +1,11 @@
 <div class="col col-1" style="color: #31708f ;font-weight: bold;" data-label="Event">Assignment</div>
 <div class="col col-1-2" data-label="Date">
-    {{ include.event.date | date: site.dateformat }}
+    {% if include.section == "a1" %}
+        {% assign date = include.event.date_a1 %}
+    {% elsif include.section == "c1" %}
+        {% assign date = include.event.date_c1 %}
+    {% endif %}
+    {{ date | date: site.dateformat }}
     <br class="date-spliter" />{{ include.event.date | date: "%A" }}
 </div>
 <div class="col col-2" style="font-weight: bold" data-label="Description">

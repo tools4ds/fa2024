@@ -1,13 +1,18 @@
 ---
 type: assignment
-date: 2024-01-23T15:30:00-5:00
-title: 'PS2 -- Supervised Learning'
+date: 2024-09-03T15:30:00-5:00
+date_a1: 2024-09-04T15:30:00-5:00
+date_c1: 2024-09-05T15:30:00-5:00
+title: 'PS1 -- Title'
 pdf: /static_files/assignments/ps2.pdf
 latex: /static_files/assignments/ps2.tex
 hide_from_announcments: true
 due_event: 
     type: due
-    date: 2024-01-30T23:59:00-5:00
-    description: 'PS2 due'
+    date: 2024-09-15T23:59:00-5:00
+    date_a1: 2024-09-16T23:59:00-5:00
+    date_c1: 2024-09-17T23:59:00-5:00
+    description: 'PS1 due'
 ---
-Problem set 2 -- Supervised learning. Turn in on GradeScope.
+
+Description here.
