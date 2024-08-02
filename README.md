@@ -90,7 +90,12 @@ To add a new lecture, create an empty file with `.md` postfix in `_lectures/` di
 ```markdown
 ---
 type: lecture
-date: 20xx-xx-xxTx:xx:xx+4:30 
+
+# Use separate dates for A1 and C1 sections
+# If one of the date_xx tags is missing, it won't display in that section sechedule
+# Boston is GMT -5:00
+date_a1: 20xx-xx-xxTx:xx:xx-5:00 
+date_c1: 20xx-xx-xxTx:xx:xx-5:00 
 title: <Title of this lecture>
 
 # optional
@@ -101,10 +106,10 @@ thumbnail: /static_files/path/to/image.jpg
 tldr: "What is Data Science? How does it impact our lives? The current state of the art."
   
 # optional
-# set it to true if you dont want this lecture to appear in the updates section
-hide_from_announcments: false
+# set it to true if you dont want this lecture to appear in the announcements section
+hide_from_announcments: true
 
-# optional
+# optional links. it will display whatever name you give it with the link
 links: 
     - url: /static_files/presentations/lec.zip
       name: notes
@@ -126,7 +131,11 @@ To add a new assignments, create an empty file with `.md` postfix in `_assignmen
 ```markdown
 ---
 type: assignment
-date: 20xx-xx-xxTx:xx:xx+4:30
+# Use separate dates for A1 and C1 sections
+# If one of the date_xx tags is missing, it won't display in that section sechedule
+# Boston is GMT -5:00
+date_a1: 20xx-xx-xxTx:xx:xx-5:00 
+date_c1: 20xx-xx-xxTx:xx:xx-5:00 
 title: <Assignment title (e.g. Assignment #1>
 
 # optional 
@@ -140,11 +149,15 @@ attachment: /static_files/assignments/assign_01_attachment.zip
 
 # optional
 # set it to true if you don't want this assignment to appear in the announcements section
-hide_from_announcments: false
+hide_from_announcments: true
 
 due_event: 
     type: due
-    date: 20xx-xx-xxTx:xx:xx+4:30
+    # Use separate dates for A1 and C1 sections
+    # If one of the date_xx tags is missing, it won't display in that section sechedule
+    # Boston is GMT -5:00
+    date_a1: 20xx-xx-xxTx:xx:xx-5:00 
+    date_c1: 20xx-xx-xxTx:xx:xx-5:00 
     description: 'Assignment #1 due'
 ---
 <!-- Other additional contents using markdown -->
@@ -155,12 +168,16 @@ Use `_events/` directory to add new a deadline, use `type: due`. These events wi
 ```markdown
 ---
 type: due
-date: 20xx-xx-xxTx:xx:xx+4:30
+# Use separate dates for A1 and C1 sections
+# If one of the date_xx tags is missing, it won't display in that section sechedule
+# Boston is GMT -5:00
+date_a1: 20xx-xx-xxTx:xx:xx-5:00 
+date_c1: 20xx-xx-xxTx:xx:xx-5:00 
 description: <Description of deadline (e.g. 'Final report due')>
 
 # optional
 # set it to true if you don't want this event to appear in the announcements section
-hide_from_announcments: false
+hide_from_announcments: true
 ---
 ```
 
@@ -169,12 +186,16 @@ Use `_events/` directory to add new Exam alert, use `type: exam`. These events w
 ```markdown
 ---
 type: exam
-date: 20xx-xx-xxTx:xx:xx+4:30
+# Use separate dates for A1 and C1 sections
+# If one of the date_xx tags is missing, it won't display in that section sechedule
+# Boston is GMT -5:00
+date_a1: 20xx-xx-xxTx:xx:xx-5:00 
+date_c1: 20xx-xx-xxTx:xx:xx-5:00 
 description: <Description of the exam (e.g. 'The midterm exam')>
 
 # optional
 # set it to true if you don't want to this event appear in the announcements section
-hide_from_announcments: false
+hide_from_announcments: true
 ---
 ```
 
@@ -184,7 +205,11 @@ Use `_events/` directory to add new custom events, use `type: raw_event`. These 
 ---
 type: raw_event
 name: <Event name>
-date: 20xx-xx-xxTx:xx:xx+4:30
+# Use separate dates for A1 and C1 sections
+# If one of the date_xx tags is missing, it won't display in that section sechedule
+# Boston is GMT -5:00
+date_a1: 20xx-xx-xxTx:xx:xx-5:00 
+date_c1: 20xx-xx-xxTx:xx:xx-5:00 
 description: <Event description>
 
 # optional
@@ -193,7 +218,7 @@ hide_time: false
 
 # optional
 # set it to true if you don't want this event appear to in the announcements section
-hide_from_announcments: false
+hide_from_announcments: true
 ---
 <!-- you can create custom content using markdown. this section will be placed in "Course Materials (in schedule section)" -->
 ## Hello
