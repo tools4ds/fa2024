@@ -6,6 +6,14 @@ layout: default
     <h1 class="post-title">Schedule for Section C1</h1>
 </header>
 
+<div class="filter-options">
+    <label><input type="checkbox" id="lectures" checked> Lectures</label>
+    <label><input type="checkbox" id="discussions" checked> Discussions</label>
+    <label><input type="checkbox" id="assignments" checked> Assignments</label>
+    <!-- <label><input type="checkbox" id="due-dates" checked> Due Dates</label> -->
+    <label><input type="checkbox" id="raw-events" checked> Other Events</label>
+</div>
+
 {{ content }}
 
 <div class="home" style="font-size: 0.8em;">
@@ -38,10 +46,55 @@ layout: default
         {% assign all_events_sorted = all_events | sort: 'date_c1' %}
 
         {% for event in all_events_sorted %}
-        <li class="table-row table-row-{{ event.type}}">
+        <li class="table-row \
+                   table-row-{{ event.type}} \
+                   event-item \
+                   {% if event.type == 'lecture' %}lecture \
+                   {% elsif event.type == 'discussion' %}discussion \
+                   {% elsif event.type == 'assignment' %}assignment \
+                   {% elsif event.type == 'due' %}due \
+                   {% else %}raw-event \
+                   {% endif %}">
             {% include schedule_row_{{ event.type }}.html event=event section="c1" %}
         </li>
         {% endfor %}
 
     </ul>
 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const checkboxes = document.querySelectorAll('.filter-options input[type="checkbox"]');
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', filterEvents);
+        });
+    
+        function filterEvents() {
+            const lecturesChecked = document.getElementById('lectures').checked;
+            const discussionsChecked = document.getElementById('discussions').checked;
+            const assignmentsChecked = document.getElementById('assignments').checked;
+            // const dueDatesChecked = document.getElementById('due-dates').checked;
+            const otherEventsChecked = document.getElementById('raw-events').checked;
+    
+            document.querySelectorAll('.event-item').forEach(item => {
+                const isLecture = item.classList.contains('lecture');
+                const isDiscussion = item.classList.contains('discussion');
+                const isAssignment = item.classList.contains('assignment');
+                const isDueDate = item.classList.contains('due');
+                const isOtherEvent = item.classList.contains('raw-event');
+    
+                if ((isLecture && lecturesChecked) || 
+                    (isDiscussion && discussionsChecked) ||
+                    (isAssignment && assignmentsChecked) || 
+                    (isDueDate && assignmentsChecked) || 
+                    (isOtherEvent && otherEventsChecked)) {
+                    item.style.display = '';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+    
+        filterEvents(); // Initial call to set the correct visibility on page load
+    });
+</script>
