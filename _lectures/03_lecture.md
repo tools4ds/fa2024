@@ -2,19 +2,19 @@
 type: lecture
 date_a1: 2024-09-10T15:30:00-5:00
 date_c1: 2024-09-11T15:30:00-5:00
-title: 03 - 
-tldr: "Description here."
+title: "03 - Tentative: Spark Project Pitch Day"
+tldr: "The Spark team will introduce the projects for this semester and what the selection process is."
 thumbnail: /_images/thumbnails/ds701-lecture-01.png
 hide_from_announcments: true
 links: 
     - url: /static_files/lectures/lecture_placeholder.pdf
       name: slides
     - url: https://mymedia.bu.edu
-      name: Section A1 Lecture Recording
+      name: A1 Recording TBD
     - url: https://mymedia.bu.edu
-      name: Section C1 Lecture Recording
+      name: C1 Recording TBD
 ---
 
 **Suggested Readings:**
-- [Course Notes, Chapter ??](https://tools4ds.github.io/DS701-Course-Notes/)
+- To be added
 

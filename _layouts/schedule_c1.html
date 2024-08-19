@@ -6,6 +6,14 @@ layout: default
     <h1 class="post-title">Schedule for Section C1</h1>
 </header>
 
+<div class="filter-options">
+    <label><input type="checkbox" id="lectures-c1" checked> Lectures</label>
+    <label><input type="checkbox" id="discussions-c1" checked> Discussions</label>
+    <label><input type="checkbox" id="assignments-c1" checked> Assignments</label>
+    <!-- <label><input type="checkbox" id="due-dates" checked> Due Dates</label> -->
+    <label><input type="checkbox" id="raw-events-c1" checked> Other Events</label>
+</div>
+
 {{ content }}
 
 <div class="home" style="font-size: 0.8em;">
@@ -38,10 +46,68 @@ layout: default
         {% assign all_events_sorted = all_events | sort: 'date_c1' %}
 
         {% for event in all_events_sorted %}
-        <li class="table-row table-row-{{ event.type}}">
+        <li class="table-row \
+                   table-row-{{ event.type}} \
+                   event-item \
+                   {% if event.type == 'lecture' %}lecture \
+                   {% elsif event.type == 'discussion' %}discussion \
+                   {% elsif event.type == 'assignment' %}assignment \
+                   {% elsif event.type == 'due' %}due \
+                   {% else %}raw-event \
+                   {% endif %}">
             {% include schedule_row_{{ event.type }}.html event=event section="c1" %}
         </li>
         {% endfor %}
 
     </ul>
 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const checkboxes = document.querySelectorAll('.filter-options input[type="checkbox"]');
+
+        // Load saved checkbox states from localStorage
+        checkboxes.forEach(checkbox => {
+            const savedState = localStorage.getItem(checkbox.id);
+            if (savedState !== null) {
+                checkbox.checked = JSON.parse(savedState);
+            }
+        });
+    
+        // Add event listeners to save checkbox states to localStorage
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', function() {
+                localStorage.setItem(checkbox.id, checkbox.checked);
+                filterEvents();
+            });
+        });
+    
+        function filterEvents() {
+            const lecturesChecked = document.getElementById('lectures-c1').checked;
+            const discussionsChecked = document.getElementById('discussions-c1').checked;
+            const assignmentsChecked = document.getElementById('assignments-c1').checked;
+            // const dueDatesChecked = document.getElementById('due-dates-c1').checked;
+            const otherEventsChecked = document.getElementById('raw-events-c1').checked;
+    
+            document.querySelectorAll('.event-item').forEach(item => {
+                const isLecture = item.classList.contains('lecture');
+                const isDiscussion = item.classList.contains('discussion');
+                const isAssignment = item.classList.contains('assignment');
+                const isDueDate = item.classList.contains('due');
+                const isOtherEvent = item.classList.contains('raw-event');
+    
+                if ((isLecture && lecturesChecked) || 
+                    (isDiscussion && discussionsChecked) ||
+                    (isAssignment && assignmentsChecked) || 
+                    (isDueDate && assignmentsChecked) || 
+                    (isOtherEvent && otherEventsChecked)) {
+                    item.style.display = '';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+    
+        filterEvents(); // Initial call to set the correct visibility on page load
+    });
+</script>
