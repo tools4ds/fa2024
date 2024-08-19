@@ -1,8 +1,8 @@
 ---
 type: lecture
-date_a1: 2024-09-24T15:30:00-5:00
-date_c1: 2024-09-25T15:30:00-5:00
-title: "07 - Clustering II: In Practice"
+date_a1: 2024-10-01T15:30:00-5:00
+date_c1: 2024-10-02T15:30:00-5:00
+title: "09 - Clustering IV: GMM and Expectation Maximization"
 tldr: "Description here."
 thumbnail: /_images/thumbnails/ds701-lecture-01.png
 hide_from_announcments: true
@@ -14,5 +14,5 @@ links:
 ---
 
 **Suggested Readings:**
-- [Clustering in Practice](https://tools4ds.github.io/DS701-Course-Notes/07-Clustering-II-in-practice.html)
+- [GMM Slides](https://tools4ds.github.io/DS701-Course-Notes/09-Clustering-IV-GMM-EM.html)
 
