@@ -2,7 +2,7 @@
 type: lecture
 date_a1: 2024-09-12T15:30:00-5:00
 date_c1: 2024-09-16T15:30:00-5:00
-title: 04 - 
+title: "04 - Distance and Similarity Functions, Timeseries"
 tldr: "Description here."
 thumbnail: /_images/thumbnails/ds701-lecture-01.png
 hide_from_announcments: true
