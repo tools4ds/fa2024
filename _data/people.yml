@@ -9,6 +9,10 @@ instructors:
     email: saladenh@bu.edu
 
 teaching_assistants:
+  - name: Farid Karimli
+    profile_pic: /_images/pp/farid.jpeg
+    webpage: https://farid-karimli.github.io/
+    email: faridkar@bu.edu
   - name: Shreyas Sudarsan
     profile_pic: /_images/pp/tbd.jpg
     webpage: TBD
@@ -17,10 +21,6 @@ teaching_assistants:
     profile_pic: /_images/pp/tbd.jpg
     webpage: TBD
     email: TBD
-  - name: TBD
-    profile_pic: /_images/pp/tbd.jpg
-    webpage: TBD
-    email: TBD
-  - name: The AI Terrier Tutor 
+  - name: The AI Terrier Tutor
     profile_pic: /_images/pp/Terrier_Logo.png
     webpage: TBD
