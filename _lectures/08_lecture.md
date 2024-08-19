@@ -1,13 +1,13 @@
 ---
 type: lecture
-date_a1: 2024-09-17T15:30:00-5:00
-date_c1: 2024-09-18T15:30:00-5:00
-title: "05 - Clustering I: k-Means"
+date_a1: 2024-09-19T15:30:00-5:00
+date_c1: 2024-09-23T15:30:00-5:00
+title: "08 - Clustering IV: GMM and Expectation Maximization"
 tldr: "Description here."
 thumbnail: /_images/thumbnails/ds701-lecture-01.png
 hide_from_announcments: true
 links: 
-    - url: https://tools4ds.github.io/DS701-Course-Notes/06-Clustering-I-kmeans.html
+    - url: /static_files/lectures/lecture_placeholder.pdf
       name: slides
     - url: https://mymedia.bu.edu
       name: Section A1 Lecture Recording
@@ -16,5 +16,5 @@ links:
 ---
 
 **Suggested Readings:**
-- [Course Notes, k-Means Clustering](https://tools4ds.github.io/DS701-Course-Notes/06-Clustering-I-kmeans.html)
+- [Course Notes, Chapter ??](https://tools4ds.github.io/DS701-Course-Notes/)
 
