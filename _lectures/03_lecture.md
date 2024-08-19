@@ -10,11 +10,11 @@ links:
     - url: /static_files/lectures/lecture_placeholder.pdf
       name: slides
     - url: https://mymedia.bu.edu
-      name: Section A1 Lecture Recording
+      name: A1 Recording TBD
     - url: https://mymedia.bu.edu
-      name: Section C1 Lecture Recording
+      name: C1 Recording TBD
 ---
 
 **Suggested Readings:**
-- [Course Notes, Chapter ??](https://tools4ds.github.io/DS701-Course-Notes/)
+- To be added
 

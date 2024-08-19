@@ -1,20 +1,18 @@
 ---
 type: lecture
-date_a1: 2024-09-19T15:30:00-5:00
-date_c1: 2024-09-23T15:30:00-5:00
-title: "08 - Clustering IV: GMM and Expectation Maximization"
+date_a1: 2024-09-26T15:30:00-5:00
+date_c1: 2024-09-30T15:30:00-5:00
+title: "08 - Clustering III: Hierarchical Clustering"
 tldr: "Description here."
 thumbnail: /_images/thumbnails/ds701-lecture-01.png
 hide_from_announcments: true
 links: 
-    - url: /static_files/lectures/lecture_placeholder.pdf
-      name: slides
     - url: https://mymedia.bu.edu
-      name: Section A1 Lecture Recording
+      name: A1 Recording TBD
     - url: https://mymedia.bu.edu
-      name: Section C1 Lecture Recording
+      name: C1 Recording TBD
 ---
 
 **Suggested Readings:**
-- [Course Notes, Chapter ??](https://tools4ds.github.io/DS701-Course-Notes/)
+- [Hierarchical Clustering](https://tools4ds.github.io/DS701-Course-Notes/08-Clustering-III-hierarchical.html)
 
