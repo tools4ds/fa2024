@@ -22,17 +22,19 @@ layout: home
 ## Lecture Section C1
 **Meeting Place:** 595 Commonwealth Ave HAR 324
 
-**Meeting Time:** Mo,We 4:30pm - 6:15pm
+**Meeting Time:** Mo,We 4:40pm - 5:55pm
 
 **Instructor:** Prof. Scott Ladenheim
 * Office: CDS 1545
-* Office Hours: TBD
+* Office Hours: We,Fr 11:00am - 12:00pm
 * Office Hours Location: CCDS 15th floor
-* Email: tgardos \<at>\ bu \<dot>\ edu
+* Email: saladenh \<at>\ bu \<dot>\ edu
 
 ## Discussion Section C2
 
-Information coming soon.
+**Discussions Meeting place:** 685-725 Comm Ave CAS 313
+
+**Discussions Time:** Fr 10:am - 11:00am
 
 ## Teaching Assistants
 
