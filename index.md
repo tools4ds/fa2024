@@ -34,7 +34,7 @@ layout: home
 
 **Discussions Meeting place:** 685-725 Comm Ave CAS 313
 
-**Discussions Time:** Fr 10:am - 11:00am
+**Discussions Time:** Fr 10:00am - 11:00am
 
 ## Teaching Assistants
 
