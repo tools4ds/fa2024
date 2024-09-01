@@ -1,7 +1,7 @@
 ---
 type: lecture
 date_a1: 2024-09-12T15:30:00-5:00
-date_c1: 2024-09-16T16:40:00-17:55:00
+date_c1: 2024-09-16T16:40:00-5:00
 title: "04 - Probability and Linear Algebra Refresher"
 tldr: "We'll review some of the important concepts in probability and linear algebra which we will then apply in later lectures."
 thumbnail: /_images/thumbnails/ds701-lecture-01.png
