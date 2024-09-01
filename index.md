@@ -274,6 +274,51 @@ Project descriptions will be made available at the start of the semester.
 
 If you have a disability and have an accommodations letter from the Disability & Access Services office, I encourage you to discuss your accommodations and needs with me as early in the semester as possible. I will work with you to ensure that accommodations are provided as appropriate. If you suspect that you may have a disability and would benefit from accommodations but are not yet registered with BU Disability & Access Services, I encourage you to find more information at [https://www.bu.edu/disability/](https://www.bu.edu/disability/).
 
+## Generative AI Assistance (GAIA) Policy
+
+In general, we follow the policy outlined in the
+[CDS GAIA Policy](https://www.bu.edu/cds-faculty/culture-community/gaia-policy/).
+
+> Extracting and paraphrasing from the student responsibilities of that policy. 
+> Where there is conflicting information between the CDS policy and below, the
+> policy below should take precedence.
+
+Students shall:<br>
+1. Give credit to AI tools whenever used, even if only to generate ideas rather than usable text, illustrations or code.
+2. When using AI tools on _written_ assignments, **unless prohibited**, add an appendix showing
+    1. the entire exchange, highlighting the most relevant sections; 
+    2. a description of precisely which AI tools were used (e.g. ChatGPT private subscription version or DALL-E free
+        version), 
+    3. an explanation of how the AI tools were used (e.g. to generate ideas, turns of phrase, elements of text, long
+        stretches of text, lines of argument, pieces of evidence, maps of conceptual territory, illustrations of key
+        concepts, etc.); 
+    4. an account of why AI tools were used (e.g. to save time, to surmount writer’s block, to stimulate thinking, to
+       handle mounting stress, to clarify prose, to translate text, to experiment for fun, etc.).
+    5. Optional but recommended: Employ AI detection tools and originality checks prior to submission, ensuring that
+       their submitted work is not mistakenly flagged.
+3. When using AI tools on _coding_ assignments, **unless prohibited**
+    1. Add the prompt text and tool used as comments before the generated code.
+       Clarify whether the code was used as is, or modified somewhat, moderately
+       or significantly.
+4. When using AI assistants incoporated into IDEs such as VSCode and Github Copilot, be extra
+   mindful of when to allow copilot generation. It can be handy to look up syntax, but it will
+   also generate entire functions. If the assignment allows it and you generate complete
+   functions, cite the tool in the comments in the function.
+4. Not use AI tools during in-class examinations, or assignments, unless explicitly permitted and instructed.
+5. Use AI tools wisely and intelligently, aiming to deepen understanding of subject matter and to support learning.
+
+As these generative assistive tools become widely deployed and pervasive, we believe they will become integral
+to most people's workflow. However, for foundational concepts, as are taught in this course, it is in your
+best interest and worth it to struggle some in creating your answers and solutions. It is just as important
+to learn what doesn't work, and which paths are dead ends, as it is to learn what does work. When you are posed
+with new and unique problems, that intuition you develop will be vital in choosing directions. More pragmatically,
+some of the most coveted jobs at the most selective companies require technical interviews where they expect you
+to know these foundational concepts without assistance.
+
+And finally, to reiterate, it is vitally important, and a core part of academic integrity, to cite when you are
+using Generative AI Assistive technologies. Arguably, not citing and risking plagiarism is worse than
+using and citing GAIA.
+
 ## Academic Honesty
 
 You may discuss homework assignments with classmates, but you are solely responsible for what you turn in.
