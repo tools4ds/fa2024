@@ -86,9 +86,9 @@ classification, and regression. They will also understand the efficiency issues 
 working on very large datasets.
 
 ## Textbook and Slides
+
 The textbook used in the course is published at [https://tools4ds.github.io/DS701-Course-Notes/](https://tools4ds.github.io/DS701-Course-Notes/).
-This online text will evolve as the course progresses,
-but I will work to keep it up-to-date.
+This online text will evolve as the course progresses, but I will work to keep it up-to-date.
 
 The slides used in the lecture are actually executable Jupyter notebooks. When we show you code in lecture, it
 will almost always be runnable code in the form of Jupyter notebooks which you can download and execute
@@ -221,6 +221,10 @@ and to oversee project deliverable grading.
 Spark! projects are a great opportunity for students to get real-world project experience to highlight on
 their github and CV. These projects have already been curated and will be presented during “Pitch Day”.
 Project descriptions will be made available at the start of the semester.
+
+## Accommodations for Students with Disabilities
+
+If you have a disability and have an accommodations letter from the Disability & Access Services office, I encourage you to discuss your accommodations and needs with me as early in the semester as possible. I will work with you to ensure that accommodations are provided as appropriate. If you suspect that you may have a disability and would benefit from accommodations but are not yet registered with BU Disability & Access Services, I encourage you to find more information at [https://www.bu.edu/disability/](https://www.bu.edu/disability/).
 
 ## Academic Honesty
 

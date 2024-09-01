@@ -1,7 +1,7 @@
 ---
 type: lecture
 date_a1: 2024-09-19T15:30:00-5:00
-date_c1: 2024-09-23T15:30:00-5:00
+date_c1: 2024-09-23T16:40:00-17:55:00
 title: "06 - Clustering I: k-Means"
 tldr: "Description here."
 thumbnail: /_images/thumbnails/ds701-lecture-01.png
