@@ -2,7 +2,55 @@
 layout: home
 ---
 
-## Lecture Section A1
+<details id="toc">
+<summary>Table of Contents</summary>
+<div id="toc-content"></div>
+</details>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const tocContent = document.getElementById('toc-content');
+    const headings = document.querySelectorAll('h2, h3, h4');
+    const toc = document.createElement('ul');
+
+    let currentLevel = 2;
+    let currentUl = toc;
+    let levelStack = [toc];
+
+    headings.forEach(heading => {
+        const level = parseInt(heading.tagName.charAt(1));
+        
+        if (level > currentLevel) {
+            const newUl = document.createElement('ul');
+            currentUl.lastElementChild.appendChild(newUl);
+            levelStack.push(newUl);
+            currentUl = newUl;
+        } else if (level < currentLevel) {
+            while (levelStack.length > level - 1) {
+                levelStack.pop();
+            }
+            currentUl = levelStack[levelStack.length - 1];
+        }
+
+        currentLevel = level;
+
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.textContent = heading.textContent;
+        a.href = '#' + heading.id;
+        li.appendChild(a);
+        currentUl.appendChild(li);
+    });
+
+    tocContent.appendChild(toc);
+});
+</script>
+
+<br>
+
+## Logistics
+
+### Lecture Section A1
 **Meeting Place:** 665 Comm Ave CDS B62
 
 **Meeting Time:** Tu, Th 9:30am -- 10:45am
@@ -13,13 +61,13 @@ layout: home
 * Office Hours Location: CCDS 16th floor
 * Email: tgardos \<at>\ bu \<dot>\ edu
 
-## Discussion Section A2
+### Discussion Section A2
 
 **Discussions Meeting place:** 750 Commonwealth Ave EPC 205
 
 **Discussions Time:** We 12:20pm - 1:10pm
 
-## Lecture Section C1
+### Lecture Section C1
 **Meeting Place:** 595 Commonwealth Ave HAR 324
 
 **Meeting Time:** Mo,We 4:40pm - 5:55pm
@@ -30,13 +78,13 @@ layout: home
 * Office Hours Location: CCDS 15th floor
 * Email: saladenh \<at>\ bu \<dot>\ edu
 
-## Discussion Section C2
+### Discussion Section C2
 
 **Discussions Meeting place:** 685-725 Comm Ave CAS 313
 
 **Discussions Time:** Fr 10:00am - 11:00am
 
-## Teaching Assistants
+### Teaching Assistants
 
 * Name: TBD
    * Office Hours: TBD
@@ -71,21 +119,21 @@ methods, but rather on helping students understand the practical settings in whi
 Class discussion will study use cases and will go over relevant Python packages that will enable the students
 to perform hands-on experiments with their data.
 
-## Prerequisites
+### Prerequisites
 
 Prerequisites: Students taking this class must have prior familiarity with programming, at the level of
 DS110, CS105, CS108, or CS111, or equivalent. In this course you will use python – you are assumed
 to either know python, or be ready to learn it quickly on your own in the first week. Linear Algebra – DS121
 or CS132 or equivalent (MA 242, MA 442) – is required. DS210 or CS112 is also helpful.
 
-## Learning Outcomes
+### Learning Outcomes
 
 Students who successfully complete this course will be proficient in data acquisition, manipulation, and
 analysis. They will have good working knowledge of the most commonly used methods of clustering,
 classification, and regression. They will also understand the efficiency issues and systems issues related to
 working on very large datasets.
 
-## Textbook and Slides
+### Textbook and Slides
 
 The textbook used in the course is published at [https://tools4ds.github.io/DS701-Course-Notes/](https://tools4ds.github.io/DS701-Course-Notes/).
 This online text will evolve as the course progresses, but I will work to keep it up-to-date.
@@ -101,7 +149,7 @@ a good place to go for more detail if some methodological aspect is not clear. F
 Pandas, scikit-learn, or any of the other software tools we use, there is no substitute for online resources.
 Google will quickly bring you to the authoritative (and current) references on software tools.
 
-## Tools and Platforms
+### Tools and Platforms
 
 We will use:
 1. Piazza for questions (URL TBD),
@@ -117,7 +165,7 @@ at **TBD** to let us know what it is.
 
 If you don’t have an up to date Python installation, take care of that right away.
 
-## Piazza
+### Piazza
 
 We will be using Piazza for class discussion. The system is really well tuned to getting you help fast
 and efficiently from classmates, the teaching fellows, and myself. Rather than emailing questions to the
@@ -129,7 +177,7 @@ When someone posts a question on Piazza, if you know the answer, please go ahead
 please don’t provide answers to homework questions on Piazza. It’s OK to tell people where to look to get
 answers, or to correct mistakes; just don’t provide actual solutions to homework questions.
 
-## Programming Environment
+### Programming Environment
 
 We will use python as the language for teaching and for assignments that require coding. Instructions for
 installing and using Python are in the online textbook.
@@ -150,7 +198,7 @@ Final grades will be computed based on the following:<br>
 **40%** Final Project<br>
 The exact cutoffs for final grades will be determined after the class is complete.
 
-## Homeworks
+### Homeworks
 
 There will four homework assignments. In a typical assignment you will analyze one or more datasets using
 the tools and techniques presented in class.
@@ -159,7 +207,7 @@ Homeworks will be submitted via github. For this, we need your github account (c
 you don’t already have it). After you have created it, fill out the form at **TBD** to let us know what it is.
 You are expected to work individually on homeworks.
 
-## Midterm
+### Midterm
 
 The midterm will be a Kaggle Data Science competition among the students in the class with a live leaderboard.
 Students will need to submit predictions based on a training dataset and a report detailing the methods
@@ -167,7 +215,7 @@ used and decisions made. Note that the intent is not to use the leaderboard to d
 to help you assess how effective your work is. Accordingly, 80% of the grade will be based on the report
 and only 20% will be based on the competition score related to the quality of the predictions made.
 
-## Project
+### Project
 
 A major goal of this course is to gain experience with real-world data science problems in form of a project.
 For the project you will extract some knowledge or conclusions from the analysis of dataset of your choice.
@@ -187,7 +235,7 @@ answering the following questions:
 * Have I run into any issues? Do I need help?
 * Have I talked to the client recently? When are we meeting with them next?
 
-## Project Expectations
+#### Project Expectations
 * All team members should contribute equally and proactively to project work; we will evaluate team
 contributions through a peer evaluation at the end of the semester and this will be factored into your
 grade.
@@ -206,7 +254,7 @@ the problem persists please email me with a description of the situation.
 grading all Spark! project deliverables as detailed in the syllabus below. – Team Lead: These students will assist the Project Manager in attending client meetings, organizing team questions, and facilitating team meetings.
    – Team Members: These students work collaboratively with each other on the project goals. For details on what you must submit as part of your project, see the section “Project Deliverables” at the end of this syllabus.
 
-## Spark! Collaboration
+#### Spark! Collaboration
 
 BU Spark! offers students an opportunity to work on technical projects provided by companies or organizations
 in the Greater Boston area through our experiential learning lab (X-Lab). For this semester, Spark!
