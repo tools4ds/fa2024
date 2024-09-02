@@ -56,10 +56,10 @@ document.addEventListener('DOMContentLoaded', function() {
 **Meeting Time:** Tu, Th 9:30am -- 10:45am
 
 **Instructor:** Prof. Thomas Gardos
-* Office: CDS 1635
-* Office Hours: TBD
-* Office Hours Location: CCDS 16th floor
-* Email: tgardos \<at>\ bu \<dot>\ edu
+* Office: CCDS 1623
+* Office Hours: Thursdays 11:00 AM -- 12:00 noon and by appointment
+* Office Hours Location: CCDS 1623
+* Email: tgardos &lt;at&gt; bu &lt;do&gt; edu
 
 ### Discussion Section A2
 
@@ -73,9 +73,9 @@ document.addEventListener('DOMContentLoaded', function() {
 **Meeting Time:** Mo,We 4:40pm - 5:55pm
 
 **Instructor:** Prof. Scott Ladenheim
-* Office: CDS 1545
+* Office: CCDS 1545
 * Office Hours: We,Fr 11:00am - 12:00pm
-* Office Hours Location: CCDS 15th floor
+* Office Hours Location: CCDS 1545
 * Email: saladenh \<at>\ bu \<dot>\ edu
 
 ### Discussion Section C2
@@ -86,20 +86,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
 ### Teaching Assistants
 
-* Name: TBD
+* Name: Chandrahas Aroori
    * Office Hours: TBD
    * Office Hours Location: CCDS TBD
-   * Email: name \<at>\ bu \<dot>\ edu
+   * Email: charoori &lt;at&gt; bu &gt;dot&lt; edu
 
-* Name: TBD
+* Name: Farid Karimli
    * Office Hours: TBD
    * Office Hours Location: CCDS TBD
-   * Email: name \<at>\ bu \<dot>\ edu
+   * Email: faridkar &lt;at&gt; bu &gt;dot&lt; edu
 
-* Name: TBD
+* Name: Shreyas Venkatadhri
    * Office Hours: TBD
    * Office Hours Location: CCDS TBD
-   * Email: name \<at>\ bu \<dot>\ edu
+   * Email: shreyas9 &lt;at&gt; bu &gt;dot&lt; edu
 
 ## Overview of the Course
 
