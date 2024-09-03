@@ -1,6 +1,6 @@
 ---
 type: lecture
-date_a1: 2024-10-01T15:30:00-5:00
+date_a1: 2024-10-03T15:30:00-5:00
 date_c1: 2024-10-02T16:40:00-5:00
 title: "09 - Clustering IV: GMM and Expectation Maximization"
 tldr: "Description here."
