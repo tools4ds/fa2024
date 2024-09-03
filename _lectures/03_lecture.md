@@ -1,6 +1,6 @@
 ---
 type: lecture
-date_a1: 2024-09-10T15:30:00-5:00
+date_a1: 2024-09-12T15:30:00-5:00
 date_c1: 2024-09-11T16:40:00-5:00
 title: "03 - Tentative: Spark Project Pitch Day"
 tldr: "The Spark team will introduce the projects for this semester and what the selection process is."
