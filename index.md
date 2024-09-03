@@ -92,8 +92,8 @@ document.addEventListener('DOMContentLoaded', function() {
    * Email: charoori &lt;at&gt; bu &gt;dot&lt; edu
 
 * Name: Farid Karimli
-   * Office Hours: TBD
-   * Office Hours Location: CCDS TBD
+   * Office Hours: Tuesdays 11:00am -- 12:00 noon and by appointment.
+   * Office Hours Location: CCDS 15th floor, open desks on the west side. 
    * Email: faridkar &lt;at&gt; bu &gt;dot&lt; edu
 
 * Name: Shreyas Venkatadhri
