@@ -21,6 +21,6 @@ teaching_assistants:
     profile_pic: /_images/pp/chandrahas.jpeg
     webpage: TBD
     email: TBD
-  - name: The AI Terrier Tutor
+  - name: The AI Terrier Tutor (Experimental)
     profile_pic: /_images/pp/Terrier_Logo.png
-    webpage: TBD
+    webpage: https://tools4ds-ai-tutor.hf.space
