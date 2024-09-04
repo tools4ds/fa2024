@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 * Name: Chandrahas Aroori
    * Office Hours: Th 11:00am - 12:00pm and by appointment
-   * Office Hours Location: CCDS 1623
+   * Office Hours Location: CCDS 15th floor, open desks on the west side. 
    * Email: charoori &lt;at&gt; bu &gt;dot&lt; edu
 
 * Name: Farid Karimli
