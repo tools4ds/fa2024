@@ -87,18 +87,18 @@ document.addEventListener('DOMContentLoaded', function() {
 ### Teaching Assistants
 
 * Name: Chandrahas Aroori
-   * Office Hours: TBD
-   * Office Hours Location: CCDS TBD
+   * Office Hours: Th 11:00am - 12:00pm and by appointment
+   * Office Hours Location: CCDS 15th floor, open desks on the west side. 
    * Email: charoori &lt;at&gt; bu &gt;dot&lt; edu
 
 * Name: Farid Karimli
-   * Office Hours: Tuesdays 11:00am -- 12:00 noon and by appointment.
+   * Office Hours: Tu 11:00am -- 12:00 noon and by appointment.
    * Office Hours Location: CCDS 15th floor, open desks on the west side. 
    * Email: faridkar &lt;at&gt; bu &gt;dot&lt; edu
 
 * Name: Shreyas Venkatadhri
-   * Office Hours: TBD
-   * Office Hours Location: CCDS TBD
+   * Office Hours: We 2:00pm - 3:00pm
+   * Office Hours Location: CCDS 14th floor, open desks.
    * Email: shreyas9 &lt;at&gt; bu &gt;dot&lt; edu
 
 ## Overview of the Course
