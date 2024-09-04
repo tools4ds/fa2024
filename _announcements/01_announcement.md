@@ -1,5 +1,5 @@
 ---
-date: 2024-07-26T12:30:00-5:00
+date: 2024-09-04T12:30:00-5:00
 ---
-An example announcement here. To add announcements, add another markdown file
-in `_announcements`. Make sure to put the correct date format in the header.
+Welcome to DS701 Fall 2024 edition! Check back here often as we will regularly
+update this website.
