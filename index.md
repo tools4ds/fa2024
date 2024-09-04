@@ -189,14 +189,32 @@ github and gradescope. Please review the instructions for submitting homeworks, 
 page of Piazza.
 
 > NOTE: IMPORTANT: Late assignments WILL NOT be accepted. However, you may submit one homework
->up to 3 days late. You must email **TBD** before the deadline if you intend to submit a homework
+>up to 3 days late. You must notify the TAs on Piazza before the deadline if you intend to submit a homework
 >late.
 
 Final grades will be computed based on the following:<br>
-**20%** Midterm<br>
-**40%** Homework assignments.<br>
-**40%** Final Project<br>
+
+| Percentage | Category |
+| :----------: | :--------: |
+| 20%        | Midterm  |
+| 40%        | Homework assignments |
+| 40%        | Final Project   |
+{:.mbtablestyle}
+<br>
 The exact cutoffs for final grades will be determined after the class is complete.
+
+### Project Grading
+
+Of the 40% of the project course grade, it is further weighted as the following
+
+| Percentage | Category         | Comments |
+| :--------: | :--------------: | :------ |
+| 50%        | Project quality  | * Did the project accomplish a sufficient number of (possibly revised) objectives?<br> * Was the client relationship managed well?  |
+| 10%        | Repo quality     | * Is the Github repository well organized and easy to navigate?<br> * Is the repo well documented especially with replication steps?<br> * Can one start from a new environment and easily setup and run? |
+| 30%        | Individual Contribution | Is there clear evidence of<br> * attendance and active participation in class lab time, client and team meetings?<br> * Documented activities in sprint plan history?<br> * Git commit history and co-authored git commits?<br> * Record of individual's contributions in document and presentation revision history?  |
+| 10%        | Collaboration    | Is there indication, for example from peer reviews, of positive collaborations and constructive teamwork? |
+{:.mbtablestyle}
+<br>
 
 ### Homeworks
 
@@ -318,6 +336,26 @@ to know these foundational concepts without assistance.
 And finally, to reiterate, it is vitally important, and a core part of academic integrity, to cite when you are
 using Generative AI Assistive technologies. Arguably, not citing and risking plagiarism is worse than
 using and citing GAIA.
+
+### The DS701 AI Terrier Tutor
+
+In fact, we have an experimental generative AI tutor tailored to this course's content at
+[https://tools4ds-ai-tutor.hf.space](https://tools4ds-ai-tutor.hf.space).  It is open
+source hosted at [https://github.com/tools4ds/ds701-tutor](https://github.com/tools4ds/ds701-tutor)
+which itself is forked from a parent project
+[https://github.com/edubotics-ai/edubotics-app](https://github.com/edubotics-ai/edubotics-app).
+
+We've attempted to make it Socratic in that it shouldn't just give answers but rather
+guide you to solving the problem yourself, but it is not guaranteed to not give 
+answers, so if GenAI is prohibited on an assignment then that will include 
+our AI Terrier Tutor.
+
+Otherwise, please utilize this resource and most importantly, give feedback.
+Initially a simple thumbs up or thumbs down at the response. Also feel free to 
+add a comment when prompted. We will use the feedback to evaluate the performance
+of the model and ultimately use it to fine-tune and impprove it.
+
+The Github repo links are shared above. Feel free to contribute if you are interested.
 
 ## Academic Honesty
 
