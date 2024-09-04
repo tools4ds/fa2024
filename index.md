@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 * Name: Shreyas Venkatadhri
    * Office Hours: We 2:00pm - 3:00pm
-   * Office Hours Location: CCDS TBD
+   * Office Hours Location: CCDS 14th floor, open desks.
    * Email: shreyas9 &lt;at&gt; bu &gt;dot&lt; edu
 
 ## Overview of the Course
