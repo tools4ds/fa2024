@@ -135,52 +135,69 @@ working on very large datasets.
 
 ### Textbook and Slides
 
-The textbook used in the course is published at [https://tools4ds.github.io/DS701-Course-Notes/](https://tools4ds.github.io/DS701-Course-Notes/).
-This online text will evolve as the course progresses, but I will work to keep it up-to-date.
+The textbook used in the course is published at
+[https://tools4ds.github.io/DS701-Course-Notes/](https://tools4ds.github.io/DS701-Course-Notes/).
+This online text will evolve as the course progresses, but we will work to keep it up-to-date.
 
-The slides used in the lecture are actually executable Jupyter notebooks. When we show you code in lecture, it
-will almost always be runnable code in the form of Jupyter notebooks which you can download and execute
-on your own computer. You can modify them any way you’d like, play around with them, experiment, etc.
-The notebooks and everything else I use in lecture are published on github. The repository is
-[https://github.com/tools4ds/DS701-Course-Notes](https://tools4ds.github.io/DS701-Course-Notes/). If you want to clone
-or fork the repository using git, please feel free. If you find a bug, feel free to submit a pull request.
-Some of the lectures are based on Introduction to Data Mining, by Tan, Steinbach and Kumar. This is
-a good place to go for more detail if some methodological aspect is not clear. For up-to-date reference on
-Pandas, scikit-learn, or any of the other software tools we use, there is no substitute for online resources.
-Google will quickly bring you to the authoritative (and current) references on software tools.
+The slides used in the lecture are written in Quarto markdown that can include
+executable python cells. When we show you code in lecture, it will almost always
+be runnable code. You can execute them directly in the Quarto markdown files if
+you [install Quarto](https://quarto.org/docs/get-started/). We recommend installing
+[VS Code](https://code.visualstudio.com/) and adding the
+[Quarto extension](https://marketplace.visualstudio.com/items?itemName=quarto.quarto)
+to execute the cells right in VS Code.
+
+For all the lectures with python code, we also add the **Open in Colab** link so
+you can open the page directly from the
+[Course Notes](https://tools4ds.github.io/DS701-Course-Notes/) web page and
+execute the python cells that way.
+
+Feel free to clone the [Course Notes repository](https://tools4ds.github.io/DS701-Course-Notes/)
+and execute on your own computer. You can modify them any way you’d like, play
+around with them, experiment, etc.  If you find a bug, feel free to submit a pull
+request. Some of the lectures were previously based on 
+_[Introduction to Data Mining](https://www-users.cse.umn.edu/~kumar001/dmbook/index.php)[^1]_. 
+This is a good place to go for more detail if some methodological aspect is not
+clear. For up-to-date reference on Pandas, scikit-learn, or any of the other
+software tools we use, there is no substitute for online resources.
+
+[^1]: Tan et al, Introduction to Data Mining, Pearson, 2019, [https://www-users.cse.umn.edu/~kumar001/dmbook/index.php](https://www-users.cse.umn.edu/~kumar001/dmbook/index.php)
 
 ### Tools and Platforms
 
 We will use:
-1. Piazza for questions (URL TBD),
-2. Github for homeworks, midterm and project submission,
-3. Gradescope for grading and grade management, and
+1. [Piazza](https://piazza.com/bu/fall2024/ds701) for questions
+2. Github for [web](https://github.com/tools4ds/fa2024) and [notes](https://github.com/tools4ds/DS701-Course-Notes) 
+   source, some homeworks and assignments
+3. [Gradescope](https://www.gradescope.com/courses/845172) for grading and grade
+   management
 4. Kaggle for the midterm.
 
-You should already be signed up for Gradescope (if not, enroll using code **TBD**). You can add
-yourself to Piazza if you are not already enrolled.
+You should already be signed up for Gradescope and Piazza, if not see the
+enrollment codes in the course welcome email or contact an instructor.
 
-You will need an account on Github. Once you have them, fill out the form
-at **TBD** to let us know what it is.
+You will need an account on Github. Please also add your real name to your GitHub
+account profile so we can find you.
 
 If you don’t have an up to date Python installation, take care of that right away.
 
 ### Piazza
 
-We will be using Piazza for class discussion. The system is really well tuned to getting you help fast
-and efficiently from classmates, the teaching fellows, and myself. Rather than emailing questions to the
-teaching staff, I encourage you to post your questions on Piazza. Our class Piazza page is at: **TBD**. 
-We may also use Piazza for distributing materials such as
-homeworks and solutions.
+We will be using Piazza for class discussion. The system is really well tuned to
+getting you help fast and efficiently from classmates, the teaching fellows, and
+myself. Rather than emailing questions to the teaching staff, we encourage you
+to post your questions on Piazza. Our class Piazza page is at:
+[https://piazza.com/bu/fall2024/ds701](https://piazza.com/bu/fall2024/ds701). 
 
-When someone posts a question on Piazza, if you know the answer, please go ahead and post it. However
-please don’t provide answers to homework questions on Piazza. It’s OK to tell people where to look to get
-answers, or to correct mistakes; just don’t provide actual solutions to homework questions.
+When someone posts a question on Piazza, if you know the answer, please go ahead
+and post it. However please don’t provide answers to homework questions on Piazza.
+It’s OK to tell people where to look to get answers, or to correct mistakes in the
+assignment; just don’t provide actual solutions to homework questions.
 
 ### Programming Environment
 
-We will use python as the language for teaching and for assignments that require coding. Instructions for
-installing and using Python are in the online textbook.
+We will use python as the language for teaching and for assignments that require
+coding. Instructions for installing and using Python are in the online textbook.
 
 ## Course and Grading Administration
 
@@ -222,7 +239,10 @@ There will four homework assignments. In a typical assignment you will analyze o
 the tools and techniques presented in class.
 
 Homeworks will be submitted via github. For this, we need your github account (create one if
-you don’t already have it). After you have created it, fill out the form at **TBD** to let us know what it is.
+you don’t already have it). After you have created it, fill out this
+[form](https://forms.gle/ZaYWHE8SwqqMgYLZA) to let us know what it is. We also 
+highly recommend you add your full name to your GitHub account profile.
+
 You are expected to work individually on homeworks.
 
 ### Midterm
@@ -290,7 +310,11 @@ Project descriptions will be made available at the start of the semester.
 
 ## Accommodations for Students with Disabilities
 
-If you have a disability and have an accommodations letter from the Disability & Access Services office, I encourage you to discuss your accommodations and needs with me as early in the semester as possible. I will work with you to ensure that accommodations are provided as appropriate. If you suspect that you may have a disability and would benefit from accommodations but are not yet registered with BU Disability & Access Services, I encourage you to find more information at [https://www.bu.edu/disability/](https://www.bu.edu/disability/).
+If you have a disability and have an accommodations letter from the Disability & Access Services office, We encourage you
+to discuss your accommodations and needs with us as early in the semester as possible. We will work with you to ensure
+that accommodations are provided as appropriate. If you suspect that you may have a disability and would benefit from
+accommodations but are not yet registered with BU Disability & Access Services, we encourage you to find more information
+at [https://www.bu.edu/disability/](https://www.bu.edu/disability/).
 
 ## Generative AI Assistance (GAIA) Policy
 
