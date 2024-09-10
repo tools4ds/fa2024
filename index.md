@@ -235,8 +235,7 @@ Of the 40% of the project course grade, it is further weighted as the following
 
 ### Homeworks
 
-There will four homework assignments. In a typical assignment you will analyze one or more datasets using
-the tools and techniques presented in class.
+In a typical assignment you will analyze one or more datasets using the tools and techniques presented in class.
 
 Homeworks will be submitted via github. For this, we need your github account (create one if
 you don’t already have it). After you have created it, fill out this
