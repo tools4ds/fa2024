@@ -8,7 +8,7 @@ tldr: "In this discussion section, we go over an example with another dataset us
 thumbnail: /_images/boston-univ.gif
 hide_from_announcments: true
 links: 
-    - url: https://colab.research.google.com/github/tools4ds/fa2024/static_files/discussion_slides/student_performance.ipynb
+    - url: https://colab.research.google.com/github/tools4ds/fa2024/blob/main/static_files/discussion_slides/student_performance.ipynb
       name: Open in Colab
     - url: /static_files/discussion_slides/student_performance.ipynb
       name: Jupyter Notebook
