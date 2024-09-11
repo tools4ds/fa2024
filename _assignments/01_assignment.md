@@ -14,5 +14,6 @@ due_event:
 ---
 
 Assignment 1 released on Pandas and Scikit-Learn. 
-Here is the [notebook]("static_files/assignments/assignment1.ipynb") and the [dataset]("/static_files/assignments/adult.csv")
+Here is the [notebook]({{ site.baseurl }}/static_files/assignments/assignment1.ipynb) 
+and the [dataset]({{ site.baseurl }}/static_files/assignments/adult.csv).
 
