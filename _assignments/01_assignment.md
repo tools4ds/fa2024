@@ -3,16 +3,16 @@ type: assignment
 date: 2024-09-10T15:30:00-5:00
 date_a1: 2024-09-10T15:30:00-5:00
 date_c1: 2024-09-10T15:30:00-5:00
-title: 'PS1 -- Placeholder'
-pdf: /static_files/assignments/ps2.pdf
-latex: /static_files/assignments/ps2.tex
-hide_from_announcments: true
+title: 'Assignment - 1 (Pandas and Scikit-Learn)'
+hide_from_announcments: false
 due_event: 
     type: due
-    date: 2024-09-15T23:59:00-5:00
-    date_a1: 2024-09-16T23:59:00-5:00
-    date_c1: 2024-09-17T23:59:00-5:00
-    description: 'PS1 due'
+    date: 2024-09-18T23:59:00-5:00
+    date_a1: 2024-09-18T23:59:00-5:00
+    date_c1: 2024-09-18T23:59:00-5:00
+    description: 'Assignment1 due'
 ---
 
-Description here.
+Assignment 1 released on Pandas and Scikit-Learn. 
+Here is the [notebook]("static_files/assignments/assignment1.ipynb") and the [dataset]("/static_files/assignments/adult.csv")
+
