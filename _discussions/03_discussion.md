@@ -3,7 +3,7 @@ type: discussion
 date: 2024-09-18T11:15:00-5:00
 date_a1: 2024-09-18T12:20:00-5:00
 date_c1: 2024-09-20T10:10:00-5:00
-title: "Pandas and Scikit-Learn Example"
+title: "Linear Algebra and Probability"
 tldr: "In this discussion section, we go over practical applications of probability and linear algebra."
 thumbnail: /_images/boston-univ.gif
 hide_from_announcments: true
