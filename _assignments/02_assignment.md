@@ -21,7 +21,7 @@ Here is the [notebook](https://github.com/tools4ds/ds701_fa2024_assignments/blob
 
 If you are doing this homework on Colab, you will have to take these 3 extra steps:
 
-1. copy this [zipped test folder]({https://github.com/tools4ds/ds701_fa2024_assignments/blob/main/assignments/assignment02/hw2_tests.zip)
+1. copy this [zipped test folder](https://github.com/tools4ds/ds701_fa2024_assignments/blob/main/assignments/assignment02/hw2_tests.zip)
 to your Colab local storage
 2. Add a python code cell to unzip it with `!unzip hw2_tests.zip`. You only have
    to run this cell once, so just comment it out after you unzipped the folder.
