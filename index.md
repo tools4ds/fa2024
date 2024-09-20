@@ -202,7 +202,7 @@ coding. Instructions for installing and using Python are in the online textbook.
 ## Course and Grading Administration
 
 Homeworks are due at midnight on the date shown on the syllabus. Assignments will be submitted using
-github and gradescope. Please review the instructions for submitting homeworks, on the Resources
+Github and Gradescope. Please review the instructions for submitting homeworks, on the Resources
 page of Piazza.
 
 > NOTE: IMPORTANT: Late assignments WILL NOT be accepted. However, you may submit one homework
@@ -260,7 +260,7 @@ The analysis will be done using a subset of the methods we described in class.
 Grading will be based on specific deliverables as well as your performance in your team throughout the
 semester.
 
-For the final project, students may get the opportunity to work with BU Spark! on a real world, datadriven
+For the final project, students may get the opportunity to work with BU Spark! on a real world, data driven
 project for a company, non-profit, or institution. Spark projects have already been curated and will
 be presented during “Pitch Day”. Project descriptions will be made available at the start of the semester.
 Once every student has a final project, every team will need to upload a SCRUM file to the final project
@@ -341,7 +341,7 @@ Students shall:<br>
     1. Add the prompt text and tool used as comments before the generated code.
        Clarify whether the code was used as is, or modified somewhat, moderately
        or significantly.
-4. When using AI assistants incoporated into IDEs such as VSCode and Github Copilot, be extra
+4. When using AI assistants incorporated into IDEs such as VSCode and Github Copilot, be extra
    mindful of when to allow copilot generation. It can be handy to look up syntax, but it will
    also generate entire functions. If the assignment allows it and you generate complete
    functions, cite the tool in the comments in the function.
@@ -376,7 +376,7 @@ our AI Terrier Tutor.
 Otherwise, please utilize this resource and most importantly, give feedback.
 Initially a simple thumbs up or thumbs down at the response. Also feel free to 
 add a comment when prompted. We will use the feedback to evaluate the performance
-of the model and ultimately use it to fine-tune and impprove it.
+of the model and ultimately use it to fine-tune and improve it.
 
 The Github repo links are shared above. Feel free to contribute if you are interested.
 
