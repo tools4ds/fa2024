@@ -3,7 +3,7 @@ type: assignment
 date: 2024-09-20T20:30:00-5:00
 date_a1: 2024-09-20T20:30:00-5:00
 date_c1: 2024-09-20T20:30:00-5:00
-title: 'Assignment - 3 (Probability, Statistics and Distances)'
+title: 'Assignment - 3 (Probability, Statistics, and Distances)'
 hide_from_announcments: false
 due_event: 
     type: due
@@ -22,7 +22,7 @@ Here is the [notebook](https://github.com/tools4ds/ds701_fa2024_assignments/blob
 
 If you are doing this homework on Colab, you will have to take these 3 extra steps:
 
-1. copy this [zipped test folder](https://github.com/tools4ds/ds701_fa2024_assignments/blob/main/assignments/assignment03/hw3_tests.rar)
+1. Copy this [zipped test folder](https://github.com/tools4ds/ds701_fa2024_assignments/blob/main/assignments/assignment03/hw3_tests.rar)
    to your Colab local storage<br>
 2. In colab run the following commands, <br>
    !pip install rarfile<br>
@@ -35,8 +35,6 @@ If you are doing this homework on Colab, you will have to take these 3 extra ste
    &nbsp;&nbsp;&nbsp;&nbsp;rf.extractall('test')<br>
 5. Add another code cell with `!pip install otter-grader`
 
-The last `grader.export` cell will give you an error, but you should be able to
-simply run all cell (except that last one) download your notebook from Colab
-and submit the `.ipynb` directly to Gradescope.
+The last grader.export cell will give you an error, however all other cells should run. Download your notebook from Colab and submit the .ipynb directly to Gradescope.
 
-Good luck! And reach out on Piazza with any questions or issues.
+Good luck! Please reach out on Piazza with any questions or issues.
