@@ -15,7 +15,7 @@ due_event:
 
 # Assignment 03
 
-Assignment 3 released on Probability, Statistics and Distances.
+Assignment 3 released on Probability, Statistics, and Distances.
 Here is the [notebook](https://github.com/tools4ds/ds701_fa2024_assignments/blob/main/assignments/assignment03/assignment3.ipynb).
 
 ### Special Note for Colab Users
