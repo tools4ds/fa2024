@@ -7,8 +7,8 @@ tldr: "We'll do a brief introduction to Git, Pandas and Scikit-Learn which we wi
 thumbnail: /_images/thumbnails/ds701-lecture-01.png
 hide_from_announcments: true
 links: 
-    - url: https://mymedia.bu.edu
-      name: C1 Recording TBD
+    - url: https://echo360.org/media/2a5b6ee6-ed11-467c-8a06-b039f3529494/public
+      name: C1 Recording
 ---
 
 **Suggested Readings and Slides:**
