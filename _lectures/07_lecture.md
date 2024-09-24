@@ -3,7 +3,7 @@ type: lecture
 date_a1: 2024-09-26T15:30:00-5:00
 date_c1: 2024-09-25T16:40:00-5:00
 title: "07 - Clustering II: In Practice"
-tldr: "Description here."
+tldr: "We'll discuss practical aspects of clustering using k-means."
 thumbnail: /_images/thumbnails/ds701-lecture-01.png
 hide_from_announcments: true
 links: 
