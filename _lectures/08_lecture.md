@@ -9,8 +9,8 @@ hide_from_announcments: true
 links: 
     - url: https://mymedia.bu.edu
       name: A1 Recording TBD
-    - url: https://mymedia.bu.edu
-      name: C1 Recording TBD
+    - url: https://echo360.org/media/a1cc1b85-010e-4ea4-b71e-6e88f80494e2/public
+      name: C1 Recording
 ---
 
 **Suggested Readings:**
