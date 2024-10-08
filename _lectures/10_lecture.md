@@ -14,5 +14,5 @@ links:
 ---
 
 **Suggested Readings:**
-- [TBD]()
+- [Decision Trees and Random Forests](https://tools4ds.github.io/DS701-Course-Notes/14-Classification-I-Decision-Trees.html)
 
