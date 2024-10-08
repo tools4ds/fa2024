@@ -14,5 +14,5 @@ links:
 ---
 
 **Suggested Readings:**
-- [TBD]()
+- [Classification II -- kNN](https://tools4ds.github.io/DS701-Course-Notes/15-Classification-II-kNN.html)
 
