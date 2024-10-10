@@ -7,8 +7,8 @@ tldr: "Description here."
 thumbnail: /_images/thumbnails/ds701-lecture-01.png
 hide_from_announcments: true
 links: 
-    - url: https://mymedia.bu.edu
-      name: A1 Recording TBD
+    - url: https://mymedia.bu.edu/media/t/1_mekuioku
+      name: A1 Recording
     - url: https://mymedia.bu.edu
       name: C1 Recording TBD
 ---

@@ -7,8 +7,6 @@ tldr: "We'll review the concepts of distance, (dis)similarity functions, and tim
 thumbnail: /_images/thumbnails/ds701-lecture-01.png
 hide_from_announcments: true
 links: 
-    - url: https://mymedia.bu.edu
-      name: A1 Recording TBD
     - url: https://echo360.org/media/99314888-7e57-490c-92c7-bb308bf9373a/public
       name: C1 Recording
 ---
