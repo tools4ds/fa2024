@@ -7,8 +7,6 @@ tldr: "We'll review some of the important concepts in probability and linear alg
 thumbnail: /_images/thumbnails/ds701-lecture-01.png
 hide_from_announcments: true
 links: 
-    - url: https://mymedia.bu.edu
-      name: A1 Recording TBD
     - url: https://echo360.org/media/9672b4b7-dda7-4823-ae8b-d9bf87ce0092/public
       name: C1 Recording
 ---
