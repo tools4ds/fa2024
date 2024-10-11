@@ -9,10 +9,10 @@ hide_from_announcments: true
 links: 
     - url: https://mymedia.bu.edu/media/t/1_qtg0dagg
       name: A1 Recording
-    - url: https://mymedia.bu.edu
-      name: C1 Recording TBD
+    - url: https://echo360.org/media/a75a55e9-528f-4293-9ad1-170bae8289f8/public
+      name: C1 Recording
 ---
 
 **Suggested Readings:**
-- [Classification II -- kNN](https://tools4ds.github.io/DS701-Course-Notes/15-Classification-II-kNN.html)
+- [Classification -- kNN](https://tools4ds.github.io/DS701-Course-Notes/15-Classification-II-kNN.html)
 
