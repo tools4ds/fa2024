@@ -87,3 +87,7 @@ defaults:
       type: "assignments"
     values:
       layout: "assignment"
+
+plugins:
+  - jekyll-include-cache
+  - gemfile
