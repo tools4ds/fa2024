@@ -41,6 +41,8 @@ GEM
       logger
     faraday-net_http (3.3.0)
       net-http
+    faraday-retry (2.2.1)
+      faraday (~> 2.0)
     ffi (1.17.0-aarch64-linux-gnu)
     ffi (1.17.0-aarch64-linux-musl)
     ffi (1.17.0-arm-linux-gnu)
@@ -302,7 +304,10 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  faraday (~> 2.7, >= 2.7.11)
+  faraday-retry (~> 2.0, >= 2.0.1)
   github-pages
+  jekyll-include-cache
   minima
   webrick (~> 1.8)
 
