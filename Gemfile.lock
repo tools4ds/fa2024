@@ -303,8 +303,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  minima (~> 2.5)
+  minima
   webrick (~> 1.8)
 
 BUNDLED WITH
-   2.5.16
+   2.5.22
