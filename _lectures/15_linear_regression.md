@@ -3,7 +3,7 @@ type: lecture
 date_a1: 2024-10-24T09:30:00-5:00
 date_c1: 2024-10-23T16:40:00-5:00
 title: "15 -- Linear Regression"
-tldr: "Description here."
+tldr: "We explore linear regression and the methods for assessing your regression model."
 thumbnail: /_images/thumbnails/ds701-lecture-01.png
 hide_from_announcments: true
 links: 
