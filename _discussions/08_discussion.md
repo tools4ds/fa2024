@@ -1,7 +1,7 @@
 ---
 type: discussion
 date: 2024-10-25T10:10:00-5:00
-date_a1: 2024-10-25T10:10:00-5:00
+date_a1: 2024-10-30T10:10:00-5:00
 date_c1: 2024-10-25T10:10:00-5:00
 title: "Linear Regression"
 tldr: "In this discussion section, we go over Linear Regression"
