@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: 2024-10-125T20:30:00-5:00
+date: 2024-10-25T20:30:00-5:00
 date_a1: 2024-10-25T20:30:00-5:00
 date_c1: 2024-10-25T20:30:00-5:00
 title: 'Kaggle Midterm Challenge'
