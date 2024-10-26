@@ -7,7 +7,7 @@ title: 'Kaggle Midterm Challenge'
 hide_from_announcments: false
 due_event: 
     type: due
-    date: 2024-11-08T23:69:00-6:00
+    date: 2024-11-08T23:59:00-5:00
     date_a1: 2024-11-08T23:59:00-5:00
     date_c1: 2024-11-08T23:59:00-5:00
     description: 'Midterm due'
