@@ -7,7 +7,7 @@ title: 'Assignment - 6 (K-nn, Decision Trees, & Random Forests)'
 hide_from_announcments: false
 due_event: 
     type: due
-    date: 2024-10-24T23:69:00-6:00
+    date: 2024-10-24T23:59:00-6:00
     date_a1: 2024-10-24T23:59:00-5:00
     date_c1: 2024-10-24T23:59:00-5:00
     description: 'Assignment6 due'

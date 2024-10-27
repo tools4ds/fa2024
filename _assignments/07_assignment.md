@@ -1,15 +1,15 @@
 ---
 type: assignment
-date: 2024-10-125T20:30:00-5:00
-date_a1: 2024-10-125T20:30:00-5:00
-date_c1: 2024-10-125T20:30:00-5:00
-title: 'Kaggle Midterm Challenge'
+date: 2024-10-25T20:30:00-5:00
+date_a1: 2024-10-25T20:30:00-5:00
+date_c1: 2024-10-25T20:30:00-5:00
+title: 'Kaggle Midterm Challenge' 
 hide_from_announcments: false
 due_event: 
     type: due
-    date: 2024-11-08T23:69:00-6:00
-    date_a1: 2024-11-08T23:59:00-5:00
-    date_c1: 2024-11-08T23:59:00-5:00
+    date: 2024-11-08T11:59:00-6:00
+    date_a1: 2024-11-08T11:59:00-5:00
+    date_c1: 2024-11-08T11:59:00-5:00
     description: 'Midterm due'
 ---
 
