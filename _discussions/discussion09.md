@@ -2,7 +2,6 @@
 type: discussion
 date: 2024-10-30T10:12:20-5:00
 date_a1: 2024-10-30T10:12:20-5:00
-date_c1: 2024-10-30T10:12:20-5:00
 title: "Logistic Regression & Regularization"
 tldr: "In this discussion section, we go over Logistice Regression and Regularization"
 thumbnail: /_images/boston-univ.gif
