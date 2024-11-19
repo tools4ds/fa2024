@@ -1,7 +1,7 @@
 ---
 type: lecture
-date_a1: 2024-11-26T09:30:00-5:00
-date_c1: 2024-11-25T16:40:00-5:00
+date_a1: 2024-11-21T09:30:00-5:00
+date_c1: 2024-11-20T16:40:00-5:00
 title: "24 -- Time Series"
 tldr: "Description here."
 thumbnail: /_images/thumbnails/ds701-lecture-01.png
