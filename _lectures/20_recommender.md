@@ -9,7 +9,7 @@ hide_from_announcments: true
 links: 
     - url: http://mymedia.bu.edu
       name: A1 Recording
-    - url: https://echo360.org
+    - url: https://echo360.org/media/f28b7ef0-a4c2-4143-97c6-03ab0a785dd9/public
       name: C1 Recording
 ---
 
