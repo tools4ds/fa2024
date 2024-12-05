@@ -2,7 +2,7 @@
 type: lecture
 date_c1: 2024-12-04T16:40:00-5:00
 title: "26 -- NLP II"
-tldr: "We present a Jupyter notebook illustrating how to fine0tune a Sequence to Sequence model."
+tldr: "We present a Jupyter notebook illustrating how to fine-tune a Sequence to Sequence model."
 thumbnail: /_images/thumbnails/ds701-lecture-01.png
 hide_from_announcments: true
 links: 
